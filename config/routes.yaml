@@ -1,0 +1,15 @@
+listeFilm:
+    path: /Homepage
+    controller: App\Controller\FilmsController::printFilms
+
+ajoutFilm:
+    path: /createFilms
+    controller: App\Controller\FilmsController::createFilms
+
+detailsFilm:
+    path: /Details/{id}
+    controller: App\Controller\FilmsController::detailsFilm
+
+uploadFilms:
+    path: /Uploads
+    controller: App\Controller\FilmsController::uploadFilms
