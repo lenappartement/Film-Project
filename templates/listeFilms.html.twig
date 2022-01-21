@@ -1,0 +1,12 @@
+{% include 'header.html' %}
+
+{% block body %}
+    <h2>Liste des films :</h2>
+    {% for film in films %}
+        <h3><a href="{{ path('detailsFilm', { 'id': film.id }) }}">{{ film.name}}</a></h3>
+        <div>Description : {{ film.description }}</div>
+        <div>Score : {{ film.score }}</div>
+        <div>Nombre de votants : {{ film.votersNumber }}</div>
+    {% endfor %}
+
+{% endblock %}

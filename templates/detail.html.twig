@@ -1,0 +1,17 @@
+{% include 'header.html' %}
+<!DOCTYPE html>
+<html>
+<body>
+<div class="nav-bg">
+{{ form_start(deleteFilm) }}
+<div>{{form_row(deleteFilm.password)}}</div>
+<div>{{form_row(deleteFilm.submitForm)}}</div>
+{{ form_end(deleteFilm) }}
+</div>
+<div class="detail">
+<h1>{{ film.getName() }}</h1>
+<p>Note : </p>{{ film.getScore() }}
+<p>Description : </p>{{ film.getDescription() }}
+</div>
+</body>
+</html>

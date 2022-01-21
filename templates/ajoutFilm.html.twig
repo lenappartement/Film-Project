@@ -1,0 +1,19 @@
+{% include 'header.html' %}
+{% block body %}
+    <h1>Ajouter un film à la base de données :</h1>
+    {{ form_start(form) }}
+    {{ form_label(form.name) }}
+    {{ form_widget(form.name) }}
+
+    {#
+    {{ form_label(form.description) }}
+    {{ form_widget(form.description) }}  #}
+
+    {{ form_label(form.score) }}
+    {{ form_widget(form.score) }}
+
+    {{ form_rest(form) }}
+
+    <button type="submit">Enregistrer</button>
+    {{ form_end(form) }}
+{% endblock %}

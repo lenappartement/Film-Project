@@ -1,0 +1,21 @@
+{% include 'header.html' %}
+{% block content %}
+    <h1>Déposer un fichier CSV :</h1>
+    <div class="container container-fluid">
+        <div class="row">
+            <div class="col-lg-8">
+                {{ form_start(form, { attr: { 'accept-charset' : 'utf-8' }}) }}
+                <div class="form-group">
+                    {{ form_label(form.upload_file) }}
+                    {{ form_widget(form.upload_file) }}
+                    {{ form_errors(form.upload_file) }}
+                </div>
+                <div class="form-group">
+                    {{ form_widget(form.send, {'label': "Upload", 'attr' : { 'class': 'btn btn-primary' }}) }}
+                </div>
+                {{ form_rest(form) }}
+                {{ form_end(form) }}
+            </div>
+        </div>
+    </div>
+{% endblock %}
