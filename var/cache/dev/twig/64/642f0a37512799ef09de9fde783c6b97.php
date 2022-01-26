@@ -121,6 +121,6 @@ class __TwigTemplate_feae4f61655d832dc48673f0ba668bac extends Template
         <div>Nombre de votants : {{ film.votersNumber }}</div>
     {% endfor %}
 
-{% endblock %}", "listeFilms.html.twig", "/Users/lenaiglesis/Desktop/programmation/Symfony/projetFilm/templates/listeFilms.html.twig");
+{% endblock %}", "listeFilms.html.twig", "/Users/lenaiglesis/Desktop/programmation/Symfony/Film-Project/templates/listeFilms.html.twig");
     }
 }

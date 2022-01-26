@@ -57,7 +57,7 @@ class __TwigTemplate_5086dc5736bb9efab7c5333ce8b0b91c extends Template
     </ul>
 </nav>
 <div class=\"banner\">
-    <h1>VideoClub</h1>
+    <h1>FilmList</h1>
 </div>
 
 </body>
@@ -101,10 +101,10 @@ class __TwigTemplate_5086dc5736bb9efab7c5333ce8b0b91c extends Template
     </ul>
 </nav>
 <div class=\"banner\">
-    <h1>VideoClub</h1>
+    <h1>FilmList</h1>
 </div>
 
 </body>
-</html>", "header.html", "/Users/lenaiglesis/Desktop/programmation/Symfony/projetFilm/templates/header.html");
+</html>", "header.html", "/Users/lenaiglesis/Desktop/programmation/Symfony/Film-Project/templates/header.html");
     }
 }
